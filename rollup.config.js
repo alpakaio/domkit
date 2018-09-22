@@ -2,14 +2,7 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import pkg from './package.json';
 
-const banner = ``;
-/*!
- * ${pkg.displayName} <${pkg.homepage}>
- *
- * Copyright (c) 2014-present ${pkg.author}.
- * Licensed under the MIT license.
- * Version ${pkg.version}
- */
+const banner = `/*!\r\n * ${pkg.displayName} <${pkg.homepage}>\r\n *\r\n * Copyright (c) 2014-${(new Date()).getUTCFullYear()} ${pkg.author}.\r\n * Licensed under the MIT license.\r\n * Version ${pkg.version}\r\n */\r\n`;
 
 export default [
 
@@ -19,7 +12,8 @@ export default [
 		output: {
 			name: 'DomKit',
 			file: pkg.browser,
-			format: 'umd'
+			format: 'umd',
+			banner: banner
 		},
 		plugins: [
 			resolve(),
@@ -32,8 +26,8 @@ export default [
 		input: 'src/index.js',
 		external: ['jsdom', 'window'],
 		output: [
-			{ file: pkg.main, format: 'cjs' },
-			{ file: pkg.module, format: 'es' }
+			{ file: pkg.main, format: 'cjs', banner: banner },
+			{ file: pkg.module, format: 'es', banner: banner }
 		]
 	}
 ];
