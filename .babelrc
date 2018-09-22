@@ -1,0 +1,19 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"node": "current",
+					"spec": true,
+					"modules": "commonjs",
+					"useBuiltIns": "usage",
+					"shippedProposals": true,
+					"debug": true
+				}
+			}
+		]
+	],
+  	"plugins": [],
+  	"minified": false
+}

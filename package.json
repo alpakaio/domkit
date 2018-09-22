@@ -1,0 +1,49 @@
+{
+  "name": "@alpakaio/domkit",
+  "displayName": "DomKit",
+  "version": "3.0.0-beta.1",
+  "publishConfig": {
+    "tag": "beta"
+  },
+  "description": "Module allowing `window` to be imported and shimmed by jsdom",
+  "main": "build/domkit.cjs.js",
+  "module": "build/domkit.esm.js",
+  "browser": "build/domkit.umd.js",
+  "engines": {
+    "node": ">= 8.11.4"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node tests/test.js",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpakaio/domkit.git"
+  },
+  "keywords": [
+    "alpaka",
+    "window"
+  ],
+  "author": "Placeposition LTD",
+  "maintainers": [
+    { "name": "Victoria French", "url": "https://github.com/victoriafrench" }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alpakaio/domkit/issues"
+  },
+  "homepage": "https://github.com/alpakaio/domkit",
+  "dependencies": {},
+  "devDependencies": {
+    "jsdom": "12.0.0",
+    "rollup": "0.66.2",
+    "rollup-plugin-commonjs": "9.1.8",
+    "rollup-plugin-node-resolve": "3.4.0"
+  },
+  "files": [
+    "dist",
+    "flow-typed"
+  ]
+}

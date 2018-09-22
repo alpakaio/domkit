@@ -1,0 +1,4 @@
+declare module 'checkDom' {
+	declare function checkDom(): WindowProxy | null;
+	declare module.exports: checkDom;
+}

@@ -1,0 +1,4 @@
+declare module 'domkit' {
+	declare function DomKit(): WindowProxy | null;
+	declare module.exports: DomKit;
+}

@@ -1,0 +1,4 @@
+declare module 'checkGlobal' {
+	declare function checkGlobal(): WindowProxy | null;
+	declare module.exports: node;
+}
