@@ -1,7 +1,7 @@
 {
   "name": "@alpakaio/domkit",
   "displayName": "DomKit",
-  "version": "3.0.0-beta.1",
+  "version": "3.0.0-beta.2",
   "publishConfig": {
     "tag": "beta"
   },
@@ -28,7 +28,10 @@
   ],
   "author": "Placeposition LTD",
   "maintainers": [
-    { "name": "Victoria French", "url": "https://github.com/victoriafrench" }
+    {
+      "name": "Victoria French",
+      "url": "https://github.com/victoriafrench"
+    }
   ],
   "license": "MIT",
   "bugs": {
