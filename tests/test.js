@@ -1,5 +1,5 @@
 const assert = require('assert');
-const domkit = require('../build/domkit.cjs');
+const domkit = require('../dist/domkit.cjs');
 const { JSDOM } = require('jsdom');
 
 const testExpectToThrow = () => {

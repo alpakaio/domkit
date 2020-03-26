@@ -1,11 +1,11 @@
 {
   "name": "@alpakaio/domkit",
   "displayName": "DomKit",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Module allowing `window` to be imported and shimmed by jsdom",
-  "main": "build/domkit.cjs.js",
-  "module": "build/domkit.esm.js",
-  "browser": "build/domkit.umd.js",
+  "main": "dist/domkit.cjs.js",
+  "module": "dist/domkit.esm.js",
+  "browser": "dist/domkit.umd.js",
   "engines": {
     "node": ">= 8.11.4"
   },
@@ -47,7 +47,9 @@
     "rollup-plugin-node-resolve": "5.2.0"
   },
   "files": [
-    "dist",
+	"dist",
+	"src",
+	"tests",
     "flow-typed"
   ]
 }
