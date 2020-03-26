@@ -2,20 +2,20 @@
 
 ## HEAD
 
-> [See Changes](https://github.com/placeposition/alpaka.io/compare/v3.1.0...master)
+> [See Changes](https://github.com/alpakaio/domkit/compare/v3.1.0...master)
 
 * No Changes
 
 ## v3.1.0
 
-> [See Changes](https://github.com/placeposition/alpaka.io/compare/v3.0.0...v3.1.0)
+> [See Changes](https://github.com/alpakaio/domkit/compare/v3.0.0...v3.1.0)
 
 * **FIXED** build output to the `dist` directory
 * **FIXED** included `src` with publish
 
 ## v3.0.0
 
-> [See Changes](https://github.com/placeposition/alpaka.io/compare/fd0ec4b9c3156fcb2e639e8259a5c35807f26f3f...master)
+> [See Changes](https://github.com/alpakaio/domkit/fd0ec4b9c3156fcb2e639e8259a5c35807f26f3f...master)
 
 * **ADDED** Banner to dist builds
 * **ADDED** Travis CI Integration
