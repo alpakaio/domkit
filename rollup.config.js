@@ -1,5 +1,6 @@
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
+import babel from 'rollup-plugin-babel';
 import pkg from './package.json';
 
 const banner = `/*!\r\n * ${pkg.displayName} <${pkg.homepage}>\r\n *\r\n * Copyright (c) 2014-${(new Date()).getUTCFullYear()} ${pkg.author}.\r\n * Licensed under the MIT license.\r\n * Version ${pkg.version}\r\n */\r\n`;
@@ -17,7 +18,10 @@ export default [
 		},
 		plugins: [
 			resolve(),
-			commonjs()
+			commonjs(),
+			babel({
+				exclude: 'node_modules/**'
+			})
 		]
 	},
 

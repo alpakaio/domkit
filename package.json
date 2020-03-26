@@ -1,7 +1,7 @@
 {
   "name": "@alpakaio/domkit",
   "displayName": "DomKit",
-  "version": "3.0.0-beta.3",
+  "version": "3.0.0-beta.4",
   "publishConfig": {
     "tag": "beta"
   },
@@ -40,10 +40,14 @@
   "homepage": "https://github.com/alpakaio/domkit",
   "dependencies": {},
   "devDependencies": {
-    "jsdom": "12.0.0",
-    "rollup": "0.66.2",
-    "rollup-plugin-commonjs": "9.1.8",
-    "rollup-plugin-node-resolve": "3.4.0"
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "core-js": "^2.6.11",
+    "jsdom": "16.2.1",
+    "rollup": "2.2.0",
+    "rollup-plugin-babel": "4.4.0",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0"
   },
   "files": [
     "dist",
