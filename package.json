@@ -1,10 +1,7 @@
 {
   "name": "@alpakaio/domkit",
   "displayName": "DomKit",
-  "version": "3.0.0-beta.4",
-  "publishConfig": {
-    "tag": "beta"
-  },
+  "version": "3.0.0",
   "description": "Module allowing `window` to be imported and shimmed by jsdom",
   "main": "build/domkit.cjs.js",
   "module": "build/domkit.esm.js",

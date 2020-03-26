@@ -2,6 +2,12 @@
 
 ## HEAD
 
+> [See Changes](https://github.com/placeposition/alpaka.io/compare/v3.0.0...master)
+
+* No Changes
+
+## v3.0.0
+
 > [See Changes](https://github.com/placeposition/alpaka.io/compare/fd0ec4b9c3156fcb2e639e8259a5c35807f26f3f...master)
 
 * **ADDED** Banner to dist builds
