@@ -2,9 +2,15 @@
 
 ## HEAD
 
-> [See Changes](https://github.com/alpakaio/domkit/compare/v3.1.0...master)
+> [See Changes](https://github.com/alpakaio/domkit/compare/v3.1.1...master)
 
 * No Changes
+
+## v3.1.1
+
+> [See Changes](https://github.com/alpakaio/domkit/compare/v3.1.0...v3.1.1)
+
+* **FIXED** links in readme
 
 ## v3.1.0
 
